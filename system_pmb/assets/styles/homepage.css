@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap");
+
+:root {
+    --primary: #5603ad;
+    --secondary: #801096;
+    --gray: #6c757d;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+}
+
+body {
+    font-family: "Quicksand", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.medium-tron {
+    font-size: 21px;
+    padding: 19px;
+    background-color: #333333;
+    text-align: center;
+    color: white;
+}
+.medium-tron .logo {
+    width: 165px;
+}
+
+/* navigasi */
+nav {
+    background-color: var(--gray);
+    border: 1px solid white;
+    padding: 7px;
+    position: sticky;
+    top: 0;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 21px;
+}
+
+nav a {
+    font-size: 19px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    /* font-weight: bold; */
+    color: black;
+}
+
+.content .pmb {
+    background-image: url("../images/home-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 10vh;
+
+    padding-top: 165px;
+    padding-bottom: 165px;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    font-size: 44px;
+    line-height: 1.3;
+}
+
+.pmb {
+    min-height: 1px;
+    padding-right: 38px;
+    padding-left: 38px;
+}
+
+.pmb p {
+    color: white;
+    font-size: 21px;
+}
+
+.button {
+    background-color: var(--secondary);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: var(--gray);
+}
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #333333;
+    text-align: center;
+}
+
+footer > a {
+    text-decoration: none;
+    color: white;
+}
+
+footer > a:hover {
+    color: var(--gray);
+}

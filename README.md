@@ -1,7 +1,6 @@
 # system_pmb
 
-<p>
-This is my first web-based application. I made an application in 2019, as an exercise in making web-based applications using the PHP programming language and the MariaDB database and supported by a scripting language HTML-CSS. This project is named `Pendaftaran Mahasiswa Baru ( PMB )` as an illustration for new student admissions.</p>
+This is my first web-based application. I made an application in 2019, as an exercise in making web-based applications using the PHP programming language and the MariaDB database and supported by a scripting language HTML-CSS. This project is named `Pendaftaran Mahasiswa Baru ( PMB )` as an illustration for new student admissions.
 
 ## things to note
 
@@ -11,12 +10,12 @@ This is my first web-based application. I made an application in 2019, as an exe
 ## do the installation
 
 1. Here are the steps to do the installation :
-   - a. Make sure `PHP` and `MariaDB` are installed.
-   - b. Move the `system_pmb folder` to the `htdocs folder`, so that it can be read by the web server.
-   - c. Create a new database, for example with the name `system_pmb`  
-   - d. Import `backup.sql` to database `system_pmb`.
-   - e. To connect PHP and MariaDB, please configure the connection file in the `controllers/connection.php` folder .
-   - f. The installation process has been completed
+   - Make sure `PHP` and `MariaDB` are installed.
+   - Move the `system_pmb folder` to the `htdocs folder`, so that it can be read by the web server.
+   - Create a new database, for example with the name `system_pmb`  
+   - Import `backup.sql` to database `system_pmb`.
+   - To connect PHP and MariaDB, please configure the connection file in the `controllers/connection.php` folder .
+   - The installation process has been completed
 2. If the above requirements are met, the project can be ensured to run.
 
 ## thumbnail 
